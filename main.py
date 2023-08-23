@@ -11,7 +11,7 @@ class Asiento:
 
 
 class Motor:
-    def ____init____ (self, numeroCilindros,tipo,registro):
+    def __init__ (self, numeroCilindros,tipo,registro):
         self.numeroCilindros = numeroCilindros 
         self.tipo = tipo
         self.registro = registro
@@ -36,7 +36,7 @@ class Auto :
     def cantidadAsientos(self):
         c=0
         for i in range(5):
-            if (asientos[i] != None):
+            if (self.asientos[i] != None):
                 c = c+1
         return c
     
